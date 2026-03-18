@@ -26,7 +26,7 @@ export default function Hero() {
             {RESTAURANT_INFO.name}
           </h1>
           <p className="text-xl md:text-2xl text-cream mb-8 font-light italic">
-            Authentic Kashmiri & Multi-Cuisine Delights
+            Delicious Veg & Non-Veg Food in Magam
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <motion.a

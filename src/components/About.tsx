@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Utensils, Coffee, Leaf, Zap } from 'lucide-react';
+import { RESTAURANT_INFO } from '../constants';
 
 export default function About() {
   const features = [
@@ -21,7 +22,7 @@ export default function About() {
           >
             <h2 className="text-4xl font-bold text-warm-brown mb-6">Our Story</h2>
             <p className="text-lg text-warm-brown/80 mb-6 leading-relaxed">
-              Welcome to <span className="text-warm-orange font-semibold">Just Bukhara</span>, where tradition meets taste. Located in the heart of Magam, we pride ourselves on serving authentic Kashmiri delicacies alongside a diverse multi-cuisine menu.
+              Welcome to <span className="text-warm-orange font-semibold">{RESTAURANT_INFO.name}</span>, where tradition meets taste. Located in the heart of Magam, we pride ourselves on serving authentic Kashmiri delicacies alongside a diverse multi-cuisine menu.
             </p>
             <p className="text-lg text-warm-brown/80 mb-8 leading-relaxed">
               Whether you're craving a rich Mutton Rogan Josh or a refreshing Kashmiri Kahwa, our chefs use only the freshest ingredients to ensure every bite is a celebration of flavor.

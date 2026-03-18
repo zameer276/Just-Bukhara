@@ -1,7 +1,7 @@
 import { MenuItem, RestaurantInfo } from './types';
 
 export const RESTAURANT_INFO: RestaurantInfo = {
-  name: "Just Bukhara",
+  name: "Bukhara Restaurant",
   whatsappNumber: "095977 10592",
   whatsappLink: "https://wa.me/917006846210?text=Hello%20Tarboosh%20Restaurant%20I%20want%20to%20place%20an%20order",
   address: "opposite Indian Oil Petrol Pump, Magam, Jammu and Kashmir 193401",
